@@ -1,0 +1,206 @@
+# Green-Heart-News
+Institutional website
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Green Heart News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0, maximum-sacale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="author" content="Rafael, Kaue, João, Bruna">
+    <meta name="description" content="Site de Conscientização Ambiental ">
+    <meta name="keywords" content="Site,Conscientização Ambiental ">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt:300,400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <!--Menu-->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div><img src="img/folha.png" class="folha"></div>
+                <a href="index.html">
+                    <h2>Green Heart News</h2>
+                </a>
+            </div>
+
+            <nav class="menu-desk">
+                <ul>
+                    <li class="selected home"><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="recicle.html">Recicle</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li>
+                        <a href="index.html"><img src="img/brazil_flags_flag_16979.png" class="brazil"></a>
+                    </li>
+                    <li>
+                        <a href="ingindex.html"><img src="img/united_states_flags_flag_17080.png" class="brazil"></a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- END MENU -->
+
+    <!-- Banner -->
+
+    <section class="banner"></section>
+
+    <!-- END BANNER -->
+
+
+    <!-- Notícias -->
+
+    <section class="ultimas-noticias">
+        <div class="container">
+            <div class="line-text">
+                <h2>Últimas Notícias</h2>
+                <div style="width: 300px"></div>
+            </div>
+
+            <div class="ultimas">
+                <a href="javascript: void(0);">
+                    <div id="div1">
+                        <div class="noticias">
+                            <h2><i class="material-icons">library_books</i>Governadores do NE dizem que falta celeridade federal em ações contra óleo</h2>
+                            <p style="padding: 15px;">
+                                06/11/2019 21h11
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="javascript: void(0);">
+                    <div id="div2">
+                        <div class="noticias">
+                            <h2><i class="material-icons">library_books</i>Navio grego suspeito do óleo no Nordeste brasileiro entregará documentos solicitados</h2>
+                            <p style="padding: 15px;">
+                                07/11/2019 11h11
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="javascript: void(0);">
+                    <div id="div3">
+                        <div class="noticias">
+                            <h2><i class="material-icons">library_books</i>Nove países da UE pedem maior combate à poluição no setor aéreo</h2>
+                            <p style="padding: 15px;">
+                                07/11/2019 17h52
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="javascript: void(0);">
+                    <div class="noticias">
+                        <h2><i class="material-icons">library_books</i>Mais de 60 tartarugas em perigo de extinção somem de zoológico no Japão</h2>
+                        <p style="padding: 15px;">
+                            07/11/2019 13h03
+                        </p>
+                    </div>
+                </a>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Paralax-->
+
+    <section class="paralax">
+        <div class="container">
+            <a href="sobre.html" class="botao2" id="btn2">Nossa Equipe</a>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <!--Reciclagem-->
+
+    <section class="recicle">
+        <div class="container">
+            <div class="line-text">
+                <a href="recicle.html">
+                    <h2>Reciclagem</h2>
+                </a>
+                <div style="width: 250px"></div>
+            </div>
+
+
+            <div class="container">
+                <div class="card-single">
+                    <a href="recicle.html"><img src="img/Reciclagem.jpg">
+                        <h3>Nossa natureza, como cuidar, o que fazer para ajudar, veja tudo isso e muito mais aqui:</h3>
+                        <p>Vamos cuidar da nossa natureza, veja dicas em nossa aba "Recicle".</p>
+                    </a>
+                </div>
+
+
+                <div class="card-single">
+                    <a href="recicle.html"><img src="img/ReciclagemCard.jpg">
+                        <h3>Vejas as nossas dicas para cuidar de nossa natureza.</h3>
+                        <p>Como podemos cuidar e reciclar com mais eficiência.<br>Veja em nossa aba "Recicle"</p>
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="missao">
+        <div class="container">
+            <div class="line-text">
+                <a href="missao.html">
+                    <h2>Missão</h2>
+                </a>
+            </div>
+            <p>A Green Heart News foi criada e desenvolvida, em intenção de informar e dar dicas de como anda a situação de nosso meio ambiente. Além é claro, de ajudar os usuarios do site com dicas e soluções para termos um ambiente mais agrádavel e limpo.</p>
+        </div>
+    </section>
+
+    <!--Footers-->
+
+    <footer class="footer1">
+        <div class="">
+            <div class="col-sm-12" style="border-bottom: 13px solid #fff;">
+                <div class="col-sm-6 col-xs-12" style="background: #92b93c; padding:30px;">
+                    <div class="container">
+                        <h2 class="text-center white">Nossas redes sociais</h2>
+                        <div class="col-sm-12">
+                            <div class="col-sm-6 pright">
+                                <a href="https://www.instagram.com/greenheartnews/" target="_blank">
+                                    <img class="imgsocial fright" src="img/insta.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 pleft">
+                                <a href="https://www.facebook.com/GreenHeartNews/" target="_blank">
+                                    <img class="imgsocial fleft" src="img/facebook3.png" class="facebook">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 automargin" style="background: #e7e6e2;padding: 60px;">
+                    <div class="container">
+                        <p class="text-center">Green Heart News ©2019
+                            <br>Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
